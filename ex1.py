@@ -2,9 +2,6 @@ class Person:
   def __init__(self, emotions):
     self.pizza = emotions
 
-  def __str__(self):
-    return f"Emotions: {self.pizza}"
-
   def pasta(self):
     for emotion, level in self.pizza.items():
       if level == 1:
